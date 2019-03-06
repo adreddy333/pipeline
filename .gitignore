@@ -1,0 +1,11 @@
+.DS_Store
+*.iml
+.idea
+target
+
+# Work within any directory named *ignore* and not have Git track it.
+ignore/
+
+shopping-bikeloan-dashboard-service/src/main/resources/application.properties
+shopping-bikeloan-dashboard-service/src/main/resources/hibernate.properties
+shopping-bikeloan-dashboard-service/src/main/resources/META-INF/spring-devtools.properties
