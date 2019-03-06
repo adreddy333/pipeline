@@ -7,4 +7,5 @@ node{
        stage('testing-stage') {
             def mvnHome = tool name: 'E:\\softwares\\apache-maven-3.5.2', type: 'maven'
             bat "${mvnHome}/bin/mvn test"
-        }   
+        }  
+}        
